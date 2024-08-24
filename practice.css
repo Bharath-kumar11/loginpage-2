@@ -1,0 +1,51 @@
+body{
+    text-align:center;
+    margin-top:10%;
+    background:url('login.jpg') no-repeat;
+    background-size:cover;
+    
+}
+.form{
+    border:2px solid grey;
+    padding:55px;
+    background:transparent;
+    display:inline-block;
+    width:300px;
+    height:300px;
+    font-size:25px;
+    border-radius:25px;
+    background-color: grey;
+    box-shadow:5px 5px 10px 5px cyan;
+    opacity: 0.9;
+}
+#heading {
+    color:white;   
+}
+ .first a{
+    color:bisque;
+}
+.second{
+    color:aliceblue;
+}
+.first input[type="text"],
+.first input[type="password"]{
+    padding:20px;
+    width:200px;
+    height:20px;
+    border-radius:20px;
+    background-color: aqua;
+}
+.btn{
+    margin-top:20px;
+}
+.btn button{
+    padding:20px;
+    width:200px;
+    border-radius:20px;
+    text-align:center;
+    background-color: aqua;
+}
+.first input[type="text"]:hover,
+.first input[type="password"]:hover,
+.btn button:hover
+{background-color:bisque;}
